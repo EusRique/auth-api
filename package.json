@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "check": "npm-check -s -u",
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
