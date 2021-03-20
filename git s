@@ -1,0 +1,192 @@
+[34mf4d63da[31m (HEAD -> master, origin/master, origin/HEAD) [37mfix: add AccountMongoRepository on DbAddAccount composition - [36mHenrique, [32m28 minutes ago
+[34m395d6aa[31m [37mtest: ensure DbAddAccount returns null if LoadAccountByEmailRepository returns and account - [36mHenrique, [32m36 minutes ago
+[34md1ec059[31m [37mfeat: ensure DbAddAccount returns null if LoadAccountByEmailRepository returns and account - [36mHenrique, [32m36 minutes ago
+[34me8a8873[31m [37mtest: ensure DbAccount calls LoadAccountByEmailRepository with correct email - [36mHenrique, [32m45 minutes ago
+[34m182f11d[31m [37mfeat: ensure DbAccount calls LoadAccountByEmailRepository with correct email - [36mHenrique, [32m46 minutes ago
+[34me55c795[31m [37mchore: remove src/data from git and eslint ignore - [36mHenrique, [32m59 minutes ago
+[34mb05e10f[31m [37mfeat: return access token login - [36mHenrique, [32m65 minutes ago
+[34m60a5748[31m [37mfeat: return access token login and refactor separate factories in folders - [36mHenrique, [32m68 minutes ago
+[34m3b07cf7[31m [37mfeat: return access token login - [36mHenrique, [32m69 minutes ago
+[34mb64a01f[31m [37mchore: update docs - [36mHenrique, [32m3 weeks ago
+[34mecf2f5f[31m [37mchore: update dependencies - [36mHenrique, [32m3 weeks ago
+[34mfbd7f71[31m [37mchore: add nodemon on docker - [36mHenrique, [32m3 weeks ago
+[34mf2ea75c[31m [37mfeat: add docker and docker-compose - [36mHenrique, [32m3 weeks ago
+[34m56a13e8[31m [37mrefactor: change routes to use filesystem isntead of fast-glob - [36mHenrique, [32m5 weeks ago
+[34mad5087e[31m [37mrefactor: change routes to use filesystem isntead of fast-glob - [36mHenrique, [32m5 weeks ago
+[34m427f408[31m [37mchore: update documentation - [36mHenrique, [32m9 weeks ago
+[34m5bca9cd[31m (tag: 1.1.0) [37mchore: release 1.1.0 - [36mHenrique, [32m9 weeks ago
+[34md288055[31m (origin/feat/login, feat/login) [37mtest: login route returns 401 with invalid credentials - [36mHenrique, [32m9 weeks ago
+[34m8886ca3[31m [37mtest: add login route - [36mHenrique, [32m9 weeks ago
+[34m73c0ae0[31m [37mfeat: add login route - [36mHenrique, [32m9 weeks ago
+[34mffbb375[31m [37mfeat: add LoginFactory - [36mHenrique, [32m9 weeks ago
+[34mc565f74[31m [37mrefactor: rename signup routes with login routes - [36mHenrique, [32m9 weeks ago
+[34m7621b7e[31m [37mrefactor: move EmailValidatorAdapter to the main layer - [36mHenrique, [32m9 weeks ago
+[34ma71ed8d[31m [37mrefactor: improve files names - [36mHenrique, [32m9 weeks ago
+[34m7183af2[31m [37mtest: ensure AccountMongoRepository updates the account accessToken on updateAccessToken success - [36mHenrique, [32m8 months ago
+[34m3d78391[31m [37mfeat: ensure AccountMongoRepository updates the account accessToken on updateAccessToken success - [36mHenrique, [32m8 months ago
+[34m3efa113[31m [37mtest: ensure AccountMongoRepository returns account on loadByEmail success and null if returns null - [36mHenrique, [32m8 months ago
+[34mced9c32[31m [37mfeat: ensure AccountMongoRepository returns an account on loadByEmail success - [36mHenrique, [32m8 months ago
+[34m3372b72[31m [37mrefactor: rename load with loadByEmail - [36mHenrique, [32m8 months ago
+[34me0ed22a[31m [37mrefactor: rename update with updateAccessToken - [36mHenrique, [32m8 months ago
+[34m7556fcd[31m [37mrefactor: move sut creation to a factory method - [36mHenrique, [32m8 months ago
+[34m637eeb8[31m [37mtest: ensure JwtAdapter throws if sign throws - [36mHenrique, [32m8 months ago
+[34m0da713d[31m [37mtest: ensure JwtAdapter returns a token when sign succeeds - [36mHenrique, [32m8 months ago
+[34m1b45cb1[31m [37mfeat: ensure JwtAdapter returns a token when sign succeeds - [36mHenrique, [32m8 months ago
+[34mfa39855[31m [37mtest: ensure JwtAdapter calls sign with correct values - [36mHenrique, [32m8 months ago
+[34mca48f58[31m [37mfeat: ensure JwtAdapter calls sign with correct values - [36mHenrique, [32m8 months ago
+[34md9af74b[31m [37mrefactor: move bcript-adapter files to a folder - [36mHenrique, [32m8 months ago
+[34m9dfad2d[31m [37mtest: ensure BcryptAdapter throws if compare throws - [36mHenrique, [32m8 months ago
+[34m34afeff[31m [37mtest: ensure DecryptAdapter returns false when compare fails - [36mHenrique, [32m8 months ago
+[34m2bc280c[31m [37mfeat: ensure DecryptAdapter returns false when compare fails - [36mHenrique, [32m8 months ago
+[34mf3b44e9[31m [37mtest: ensure DecryptAdapter returns true when compare succeeds - [36mHenrique, [32m8 months ago
+[34m8e9e384[31m [37mtest: ensure BcryptAdapter calls bcrypt compare with corrects values - [36mHenrique, [32m8 months ago
+[34m5a08589[31m [37mfeat: ensure BcryptAdapter calls bcrypt compare with corrects values - [36mHenrique, [32m8 months ago
+[34m2385796[31m [37mrefactor: rename TokenGenerator to Encrypter - [36mHenrique, [32m8 months ago
+[34ma570191[31m [37mrefactor: rename Encrypter to Hasher - [36mHenrique, [32m8 months ago
+[34m392634f[31m [37mrefactor: move DbAuthentication single file - [36mHenrique, [32m8 months ago
+[34m4b574d0[31m [37mtest: ensure DbAuthentication throws if UpdateAccessTokenRepository throws - [36mHenrique, [32m8 months ago
+[34m5a795a2[31m [37mtest: ensure DbAuthentication calls UpdateAccessTokenRepository with correct values - [36mHenrique, [32m8 months ago
+[34m5361c5a[31m [37mfeat: ensure DbAuthentication calls UpdateAccessTokenRepository with correct values - [36mHenrique, [32m8 months ago
+[34md27078f[31m [37mtest: ensure DbAuthentication returns a token on success - [36mHenrique, [32m8 months ago
+[34m2198ac9[31m [37mfeat: ensure DbAuthentication returns a token on success - [36mHenrique, [32m8 months ago
+[34m6b5148a[31m [37mtest: ensure DbAuthentication throws if TokenGenerator throws - [36mHenrique, [32m8 months ago
+[34m45c2e10[31m [37mtest: ensure DbAuthentication calls TokenGenerator with correct id - [36mHenrique, [32m8 months ago
+[34m324df36[31m [37mfeat: ensure DbAuthentication calls TokenGenerator with correct id - [36mHenrique, [32m8 months ago
+[34m3d17006[31m [37mtest: ensure DbAuthentication returns null if HashComparer returns false - [36mHenrique, [32m8 months ago
+[34m1f60d2f[31m [37mtest: ensure DbAuthentication throws if HashComparer throws - [36mHenrique, [32m8 months ago
+[34m7915a51[31m [37mtest: ensure DbAuthentication calls HashComparer with correct values - [36mHenrique, [32m8 months ago
+[34mc74eb05[31m [37mfeat: ensure DbAuthentication calls HashComparer with correct values - [36mHenrique, [32m8 months ago
+[34m0782c0f[31m [37mtest: ensure DbAuthentication returns null if LoadAccountByEmailRepository returns null - [36mHenrique, [32m8 months ago
+[34m6ea9b5b[31m [37mrefactor: move data layer interfaces to folders - [36mHenrique, [32m8 months ago
+[34macfd301[31m [37mtest: ensure DbAuthentication throws if LoadAccountByEmailRepository throws - [36mHenrique, [32m8 months ago
+[34mfe0fa8f[31m [37mrefactor: move duplicated code to helper methods - [36mHenrique, [32m8 months ago
+[34me10d67f[31m [37mtest: ensure DbAuthentication calls LoadAccountByEmailRepository with correct email - [36mHenrique, [32m8 months ago
+[34mbf8b319[31m [37mfeat: ensure DbAuthentication calls LoadAccountByEmailRepository with correct email - [36mHenrique, [32m8 months ago
+[34mca860e0[31m [37mrefactor: change authentication to receive a model - [36mHenrique, [32m9 months ago
+[34mb417dc6[31m [37mrefactor: group validation imports in a single file - [36mHenrique, [32m9 months ago
+[34m336cf1d[31m [37mrefactor: move Validation to protocols folder - [36mHenrique, [32m9 months ago
+[34mb3a7da5[31m [37mrefactor: move HttpHelper to a folder - [36mHenrique, [32m9 months ago
+[34m1ef9fa2[31m [37mfeat: add LoginValidationFactory - [36mHenrique, [32m9 months ago
+[34mc50ea20[31m [37mtest: ensure ValidationComposite not return if validation success - [36mHenrique, [32m9 months ago
+[34m38b2c3e[31m [37mtest: add test to ValidationComposite - [36mHenrique, [32m9 months ago
+[34m59f3048[31m [37mtest: add test to CompareFieldsValidation - [36mHenrique, [32m9 months ago
+[34m07f0586[31m [37mtest: ensure RequiredValidation not return validation success and MissingParamError fails validation - [36mHenrique, [32m9 months ago
+[34m3683886[31m [37mrefactor: move EmailValidation to the ValidationComposite - [36mHenrique, [32m9 months ago
+[34maac0ab6[31m [37mrefactor: move password comparation to the ValidationComposite - [36mHenrique, [32m9 months ago
+[34m19309ad[31m [37mrefactor: move required field validation to the ValidationComposite - [36mHenrique, [32m9 months ago
+[34meef5bc5[31m [37mrefactor: remove unused tests - [36mHenrique, [32m9 months ago
+[34m7c75cce[31m [37mtest: ensure SignUpController returns 400 if Validation fails - [36mHenrique, [32m9 months ago
+[34mb5506a6[31m [37mfeat: ensure SignUpController returns 400 if Validation fails - [36mHenrique, [32m9 months ago
+[34mc37a8da[31m [37mtest: ensure SignUpController calls Validation with correct value - [36mHenrique, [32m9 months ago
+[34m51fcfd0[31m [37mfeat: ensure SignUpController calls Validation with correct value - [36mHenrique, [32m9 months ago
+[34mb600fde[31m [37mtest: ensure LoginController returns 200 if valid credentials are provided - [36mHenrique, [32m9 months ago
+[34mfc63c77[31m [37mfeat: ensure LoginController returns 200 if valid credentials are provided - [36mHenrique, [32m9 months ago
+[34m481fd5c[31m [37mtest: ensure loginController returns 500 if Authentication throws - [36mHenrique, [32m9 months ago
+[34m5820413[31m [37mfeat: ensure loginController returns 500 if Authentication throws - [36mHenrique, [32m9 months ago
+[34m07dde04[31m [37mtest: ensure LoginController returns 401 if invalid credentials are provided - [36mHenrique, [32m9 months ago
+[34m82d6053[31m [37mfeat: ensure LoginController returns 401 if invalid credentials are provided - [36mHenrique, [32m9 months ago
+[34m5028d0b[31m [37mrefactor: remove cod duplication - [36mHenrique, [32m9 months ago
+[34m0021f53[31m [37mtest: ensure LoginController calls Authentications with corrects values - [36mHenrique, [32m9 months ago
+[34ma72f030[31m [37mfeat: ensure LoginController calls Authentications with corrects values - [36mHenrique, [32m9 months ago
+[34mca81d4f[31m [37mtest: ensure LoginController returns 500 if EmailValidator throws - [36mHenrique, [32m9 months ago
+[34ma4f87b4[31m [37mfeat: ensure LoginController returns 500 if EmailValidator throws - [36mHenrique, [32m9 months ago
+[34mcbe38e1[31m (tag: 1.0.0) [37mtest: ensure creating LoginController and validating the request - [36mHenrique, [32m9 months ago
+[34m00d5465[31m [37mfeat: ensure creating LoginController and validating the request - [36mHenrique, [32m9 months ago
+[34mf0c79b0[31m [37mfeat: ensure ExpressRouteAdapter returns the error message instead of the error name - [36mHenrique, [32m9 months ago
+[34ma89f328[31m [37mfeat: add LogMongoRepository to singup factory - [36mHenrique, [32m9 months ago
+[34md91518e[31m [37mtest: ensure LogMongoRepository creates an error log on success - [36mHenrique, [32m9 months ago
+[34mdbb2477[31m [37mfeat: ensure LogMongoRepository creates an error log on success - [36mHenrique, [32m9 months ago
+[34mfd55378[31m [37mrefactor: remove duplicated code - [36mHenrique, [32m9 months ago
+[34m8f4dc12[31m [37mrefactor: remove duplicated code - [36mHenrique, [32m9 months ago
+[34m4599b86[31m [37mrefactor: remove duplicated code - [36mHenrique, [32m9 months ago
+[34mcd77d44[31m [37mtest: ensure LogControllerDecorator calls LogErrorRepository if controller returns server error - [36mHenrique, [32m9 months ago
+[34ma34d515[31m [37mfeat: ensure LogControllerDecorator calls LogErrorRepository if controller returns server error - [36mHenrique, [32m9 months ago
+[34mce5af8d[31m [37mtest: ensure LogControllerDecorator returns the same result and with correct values Controller - [36mHenrique, [32m9 months ago
+[34m3812f60[31m [37mfeat: ensure LogControllerDecorator returns the same result and with correct values Controller - [36mHenrique, [32m9 months ago
+[34m9864a1d[31m [37mtest: ensure Mongodb recconect if client is down - [36mHenrique, [32m9 months ago
+[34m18a9785[31m [37mfeat: ensure Mongodb recconect if client is down - [36mHenrique, [32m9 months ago
+[34m685af1b[31m [37mfeat: add ExpressRouteAdapter - [36mHenrique, [32m9 months ago
+[34m6054f67[31m [37mrefactor: add SignUp Factory - [36mHenrique, [32m9 months ago
+[34me4d591d[31m [37mfeat: connect to mongodb before app listen - [36mHenrique, [32m9 months ago
+[34mdda2fda[31m [37mrefactor: connect to mongodb before integration tests - [36mHenrique, [32m9 months ago
+[34m1f5418f[31m [37mtest: ensure signup routes returns an account on success - [36mHenrique, [32m9 months ago
+[34m83488e9[31m [37mfeat: ensure signup routes returns an account on success - [36mHenrique, [32m9 months ago
+[34ma93ba24[31m [37mrefactor: group middlware interfaces in a single file - [36mHenrique, [32m9 months ago
+[34m383427a[31m [37mtest: ensure requests return json as default content-type - [36mHenrique, [32m9 months ago
+[34m6a99ad8[31m [37mfeat: ensure requests return json as default content-type - [36mHenrique, [32m9 months ago
+[34m325fa45[31m [37mtest: ensure cors is enable - [36mHenrique, [32m9 months ago
+[34m0a89617[31m [37mfeat: ensure cors is enable - [36mHenrique, [32m9 months ago
+[34m306c4bd[31m [37mtest: ensure requests parse body as json - [36mHenrique, [32m9 months ago
+[34m2a9b114[31m [37mfeat: ensure requests parse body as json - [36mHenrique, [32m9 months ago
+[34m268415b[31m [37mchore: add express - [36mHenrique, [32m9 months ago
+[34mc20b812[31m [37mrefactor: move mapping to Mongo Helper - [36mHenrique, [32m9 months ago
+[34me6df797[31m [37mrefactor: clear database betewen tests - [36mHenrique, [32m9 months ago
+[34mebaa655[31m [37mrefactor: move sut creation to a factory helper method - [36mHenrique, [32m9 months ago
+[34m9cd6a1c[31m [37mtest: ensure AccountMongoRepository returns an account on success - [36mHenrique, [32m9 months ago
+[34mfe345e2[31m [37mfeat: ensure AccountMongoRepository returns an account on success - [36mHenrique, [32m9 months ago
+[34m9fdd670[31m [37mrefactor: mongodb methods to a helper - [36mHenrique, [32m9 months ago
+[34m39b0314[31m [37mfeat: mongodb methods to a helper - [36mHenrique, [32m9 months ago
+[34mfdf35af[31m [37mchore: add jest config for mongodb - [36mHenrique, [32m9 months ago
+[34m41caa8b[31m [37mtest: ensure BcryptAdapter throws if Bcryt throws - [36mHenrique, [32m9 months ago
+[34m492452a[31m [37mtest: ensure BcryptAdapter returns a hash on success - [36mHenrique, [32m9 months ago
+[34m3f44cdd[31m [37mfeat: ensure BcryptAdapter returns a hash on success - [36mHenrique, [32m9 months ago
+[34m3cac94e[31m [37mtest: ensure BcryptAdapter calls bcrypt with corrects values - [36mHenrique, [32m9 months ago
+[34m7cdd7fe[31m [37mfeat: ensure BcryptAdapter calls bcrypt with corrects values - [36mHenrique, [32m9 months ago
+[34mcc42b00[31m [37mtest: ensure DbAccount returns an account in success - [36mHenrique, [32m9 months ago
+[34m41a3b29[31m [37mfeat: ensure DbAccount returns an account in success - [36mHenrique, [32m9 months ago
+[34m85324d8[31m [37mtest: ensure DbAddAccount throws if AddAccountRepository throws - [36mHenrique, [32m9 months ago
+[34mdcf7382[31m [37mtest: ensure DbAddAccount calls AddAccountRepository with corret values - [36mHenrique, [32m9 months ago
+[34m8c71975[31m [37mfeat: ensure DbAddAccount calls AddAccountRepository with corret values - [36mHenrique, [32m9 months ago
+[34me76f0c4[31m [37mfeat: add pre-push husky - [36mHenrique, [32m9 months ago
+[34mdbac9c5[31m [37mtest: should throw if Encrypter throws - [36mHenrique, [32m9 months ago
+[34m9c5188c[31m [37mtest: should call Encrypter with correct password - [36mHenrique, [32m9 months ago
+[34ma9cdcda[31m [37mfeat: should call Encrypter with correct password - [36mHenrique, [32m9 months ago
+[34mbb5f333[31m [37mrefactor: move sut creation to a factory helper method - [36mHenrique, [32m9 months ago
+[34md5aef01[31m [37mtest: should call validator with correct values - [36mHenrique, [32m9 months ago
+[34mf203255[31m [37mtest: should return true if validator returns true - [36mHenrique, [32m9 months ago
+[34mde85183[31m [37mtest: should return false if validator returns false - [36mHenrique, [32m9 months ago
+[34m92774ac[31m [37mfeat: should return false if validator returns false - [36mHenrique, [32m9 months ago
+[34m58c70f8[31m [37mchore: add jest configs and scripts - [36mHenrique, [32m9 months ago
+[34m75ebffb[31m [37mrefactor: transform handle to async - [36mHenrique, [32m9 months ago
+[34m257396c[31m [37mrefactor: move success httpResponse to a helper - [36mHenrique, [32m9 months ago
+[34m0ccdd2e[31m [37mtest: ensure SignUpController returns 200 if valid data is provided - [36mHenrique, [32m9 months ago
+[34m0aec3d4[31m [37mfeat: ensure SignUpController returns 200 if valid data is provided - [36mHenrique, [32m9 months ago
+[34m7a519ec[31m [37mtest: ensure SignUpController returns 500 if AddAccount throws - [36mHenrique, [32m9 months ago
+[34m54a535c[31m [37mrefactor: move all signup protocols to a single file - [36mHenrique, [32m9 months ago
+[34mb578ca6[31m [37mtest: ensure SignUpController calls AddAccount if corrects values - [36mHenrique, [32m9 months ago
+[34md368cee[31m [37mfeat: ensure SignUpController calls AddAccount if corrects values - [36mHenrique, [32m9 months ago
+[34mdc35165[31m [37mtest: should return 400 if password is different the password Confirmation - [36mHenrique, [32m9 months ago
+[34m1050652[31m [37mfeat: should return 400 if password is different the password Confirmation - [36mHenrique, [32m9 months ago
+[34m92a1356[31m [37mrefactor: change mocking strategy - [36mHenrique, [32m9 months ago
+[34m4b1e9c8[31m [37mrefactor: move EmailValidator creation to a factory helper method - [36mHenrique, [32m10 months ago
+[34m0e21829[31m [37mrefactor: move all protocols imports to a single file - [36mHenrique, [32m10 months ago
+[34m3e095c1[31m [37mrefactor: move all error imports to a single file - [36mHenrique, [32m10 months ago
+[34m9e6fed7[31m [37mtest: ensure SignUpController return 500 if EmailValidator throws - [36mHenrique, [32m10 months ago
+[34m0bebffa[31m [37mfeat: ensure SignUpController return 500 if EmailValidator throws - [36mHenrique, [32m10 months ago
+[34m86e8198[31m [37mfeat: ensure SignUpController calls EmailValidator with correct email - [36mHenrique, [32m10 months ago
+[34m0a5f852[31m [37mtest: ensure SignUpController returns 400 if an invalid email is provided - [36mHenrique, [32m10 months ago
+[34me647ae8[31m [37mfeat: ensure SignUpController returns 400 if an invalid email is provided - [36mHenrique, [32m10 months ago
+[34md821025[31m [37mrefactor: file travis - [36mHenrique, [32m10 months ago
+[34mb386457[31m [37mtest: should return 400 if any of the required fields is not filled in SignUpController - [36mHenrique, [32m10 months ago
+[34me2339b2[31m [37mfeat: should return 400 if any of the required fields is not filled in SignUpController - [36mHenrique, [32m10 months ago
+[34m897c46d[31m [37mfeat: implemented interface Controller - [36mHenrique, [32m10 months ago
+[34m072f026[31m [37mfeat: creating helper method - [36mHenrique, [32m10 months ago
+[34m7033e6a[31m [37mfeat: creating custom errors - [36mHenrique, [32m10 months ago
+[34m0a59d52[31m [37mfeat: implemented http interface - [36mHenrique, [32m10 months ago
+[34m6182ccc[31m [37mrefactor: updated eslint rules - [36mHenrique, [32m10 months ago
+[34m3f77f40[31m [37mdocs: update readme - [36mHenrique, [32m10 months ago
+[34md03fb31[31m [37mfix: bug file travis - [36mHenrique, [32m10 months ago
+[34m30fab8a[31m [37mtest: ensure SignUpController returns 400 if no name is provided - [36mHenrique, [32m10 months ago
+[34m5be6325[31m [37mfeat: ensure SignUpController returns 400 if no name is provided - [36mHenrique, [32m10 months ago
+[34m3fc439e[31m [37mfix: file jest.config - [36mHenrique, [32m10 months ago
+[34m85ebf54[31m [37mchore: update jest.config - [36mHenrique, [32m10 months ago
+[34ma1930ed[31m [37mchore: update package.json - [36mHenrique, [32m10 months ago
+[34mbb41599[31m [37mchore: add travis ci and coveralls - [36mHenrique, [32m10 months ago
+[34m43f2bb2[31m [37mchore: add jest to lint staged - [36mHenrique, [32m10 months ago
+[34m6a8e6a0[31m [37mchore: add jest - [36mHenrique, [32m10 months ago
+[34m41accc7[31m [37mchore: add husky and lint staged - [36mHenrique, [32m10 months ago
+[34m052ecf2[31m [37mchore: add eslint - [36mHenrique, [32m10 months ago
+[34ma17109a[31m [37mchore: add typescript - [36mHenrique, [32m10 months ago
+[34mb238cc0[31m [37mchore: add commit linter - [36mHenrique, [32m10 months ago
+[34m2c44b82[31m [37mchore: add npm - [36mHenrique, [32m10 months ago
+[34mc734556[31m [37mfirst commit - [36mHenrique, [32m10 months ago
